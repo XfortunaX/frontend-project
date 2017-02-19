@@ -1,5 +1,5 @@
 body {
-    background: -webkit-linear-gradient(top right, #4A148C, #5C6BC0);
+    background: -webkit-linear-gradient(top, #1B6990, #141C4C);
     user-select: none;
 }
 
@@ -47,7 +47,8 @@ a {
 
 .new-game {
     margin: 40px;
-    background: #FFC342;
+    background: -webkit-linear-gradient(top left, #FDD835, #FFF59D, #FDD835);
+    border: 12px outset #FFF59D;
     width: 250px;
     height: 250px;
     border-radius: 5em;
@@ -55,19 +56,24 @@ a {
 }
 
 .profile {
-    background: #18A7B5;
+    background: -webkit-linear-gradient(top, #184177, #18A7B5, #184177);
+    border: 6px outset #18A7B5;
 }
 
 .rating {
-    background: #F75E25;
+    background: -webkit-linear-gradient(top, #FB8C00, #FFCA28, #FB8C00);
+    border: 6px outset #FFCA28;
 }
 
 .achievement {
     font-size: 2em;
-    background: #387901;
+    background: -webkit-linear-gradient(top, #004D40, #00897B, #004D40);
+    border: 6px outset #00897B;
 }
 
 .exit {
-    background: #374030;
+    background: -webkit-linear-gradient(top, #424242, #757575, #424242);
+    border: 6px outset #757575;
     color: white;
 }
+
